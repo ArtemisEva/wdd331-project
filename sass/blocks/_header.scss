@@ -21,3 +21,8 @@ header {
     max-width: 30ch;
   }
 }
+
+.my-block {
+  @include utility-padding(10px);
+  @include utility-margin(15px);
+}
