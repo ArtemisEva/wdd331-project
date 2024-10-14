@@ -66,8 +66,7 @@ select {
   --color-text: rgb(31.325, 74.725, 84.175);
   --color-light: #fff;
   --color-anchor: #07839E;
-  --font-family: "Baloo 2",
-  sans-serif;
+  --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
