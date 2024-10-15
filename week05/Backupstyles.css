@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row-grid,
+.col-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+
+}
+
+.row-grid .card {
+    flex: 1 1 auto;
+    height: 140px;
+    flex-direction: column;
+}
+
+.row-grid .card img {
+    width: 100%;
+    height: 70%;
+}
+
+.col-grid .card {
+    flex: 1 1 auto;
+    width: 220px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.col-grid .card img {
+    width: 100%;
+    height: 100%;
+}
